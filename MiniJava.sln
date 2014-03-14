@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MiniJava", "MiniJava\MiniJava.fsproj", "{2191FAA6-715A-49E6-8E47-6B0245858F0C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "Library1\Tests.fsproj", "{A0EB575D-B63B-4713-A2CA-E632F4D9BB45}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2191FAA6-715A-49E6-8E47-6B0245858F0C} = {2191FAA6-715A-49E6-8E47-6B0245858F0C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2191FAA6-715A-49E6-8E47-6B0245858F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2191FAA6-715A-49E6-8E47-6B0245858F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2191FAA6-715A-49E6-8E47-6B0245858F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2191FAA6-715A-49E6-8E47-6B0245858F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0EB575D-B63B-4713-A2CA-E632F4D9BB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0EB575D-B63B-4713-A2CA-E632F4D9BB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0EB575D-B63B-4713-A2CA-E632F4D9BB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0EB575D-B63B-4713-A2CA-E632F4D9BB45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
